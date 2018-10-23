@@ -1,0 +1,148 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url("../images/grader.jpg");
+}
+
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+.nav {
+    border-bottom: 2px solid #ccc;
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align: right;
+    height: 10%;
+    /* line-height: 10px; */
+    background: white;
+    align-content: center;
+    text-align: center;
+}
+.card {
+    margin-left: 2%;
+	margin-top: 2%;
+    font-size: 20px;
+    width: 98%;
+    border: 2px solid green;
+    /* background-color: white; */
+}
+#result {
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: calc(16px + 1vw);
+    font-weight: 400;
+    color: green;
+    margin-left: 10%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 2px solid #d6e9c6;
+    background-color: #dff0d8;
+   /* display: none; */
+}
+
+.container
+{
+    align-content: center;
+    width: 80%;
+    padding-top: 4%;
+}
+
+.card-body
+{
+    align-content: center;
+    width: 80%;
+    border: green;
+    background: white;
+    width: 100%;
+}
+#mainPanel {
+    align-content: center;
+    width: 80%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: calc(16px + 1vw);
+    font-weight: 600;
+    color: green;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.ShowTimer
+{
+    align-content: right;
+    text-align: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.ShowQuizz
+{
+    align-content: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+}
+.panel-body {
+    align-content: center;
+    height: 70%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: calc(12px + 1vw);
+    font-weight: 200;
+    color: green;
+    text-align: center;
+    background: white;
+  }
+  .bodyTitle
+  {
+      text-align: center;
+      padding-bottom:5%;
+      /* font-size: 20px; */
+      font-size: calc(18px + 1vw);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+	  font-weight:bold;
+	  /* font-size:40px; */
+      /* padding: 20px; */
+      color: green;  
+	  font-style: italic;
+  }  
+
+#QuizzForm {
+    /* check how to use cal here ?? for padding top */
+    padding-top: 3%;
+    /* padding-top: calc(100vw * (5/16)); */
+    /* height: calc(50vw * (9/16)); */
+    margin-left:  10%; 
+	width: 80%;
+	align-content: center;
+    /* background: url("../images/grader.jpg");     */
+  }
+  
+  
+
+@media only screen and (max-width: 500px) {
+  
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    #mainBody {
+        /* check how to use cal here ?? for padding top */
+        padding-top: 28%;
+        /* padding-top: calc(100vw * (5/16)); */
+        /* height: calc(50vw * (9/16)); */
+        margin-left: 30px;
+        width: 80%;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
